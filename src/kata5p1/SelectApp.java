@@ -9,7 +9,7 @@ import java.sql.Statement;
 public class SelectApp {
     private Connection connect() {
 
-        String url = "jdbc:sqlite:Kata5.db";
+        String url = "jdbc:sqlite:KATA5.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
